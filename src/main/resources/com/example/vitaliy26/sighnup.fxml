@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ff0f73;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vitaliy26.sighupController">
+    <children>
+        <AnchorPane layoutY="103.0" prefHeight="301.0" prefWidth="700.0" style="-fx-background-color: #ff5ca0;">
+            <children>
+                <Button fx:id="authSighinButton" layoutX="276.0" layoutY="246.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="199.0" style="-fx-background-color: #f29f3f;" text="Зареєструватись" textFill="WHITE">
+                    <font>
+                        <Font name="Corbel Bold Italic" size="18.0" />
+                    </font>
+                </Button>
+                <TextField fx:id="login_field" layoutX="14.0" layoutY="75.0" prefHeight="31.0" prefWidth="276.0" promptText="Логін" style="-fx-background-color: #fabee2;" />
+                <PasswordField fx:id="password_field" layoutX="396.0" layoutY="75.0" prefHeight="31.0" prefWidth="276.0" promptText="Пароль" style="-fx-background-color: #fabee2;" />
+            <TextField fx:id="sighUPLastName" layoutX="396.0" layoutY="14.0" prefHeight="31.0" prefWidth="276.0" promptText="Прізвище" style="-fx-background-color: #fabee2;" />
+            <TextField fx:id="sighUPName" layoutX="14.0" layoutY="14.0" prefHeight="31.0" prefWidth="276.0" promptText="Ім'я" style="-fx-background-color: #fabee2;" />
+            <TextField fx:id="SighUpCountry" layoutX="396.0" layoutY="146.0" prefHeight="31.0" prefWidth="276.0" promptText="Країна" style="-fx-background-color: #fabee2;" />
+            <DatePicker fx:id="myDatePicker" layoutX="14.0" layoutY="146.0" onAction="#getDate" />
+            <Label fx:id="dataLabel" layoutX="51.0" layoutY="115.0" prefHeight="21.0" prefWidth="128.0" style="-fx-background-color: #c9bd36;" text="Дата народження" textFill="#4536c7" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="276.0" layoutY="31.0" prefHeight="72.0" prefWidth="199.0" text="ItBruno" textFill="#fff9f9">
+            <font>
+                <Font name="Vivaldi Italic" size="48.0" />
+            </font>
+        </Label>
+      <Button fx:id="GoBackButton" layoutX="468.0" layoutY="6.0" mnemonicParsing="false" onAction="#onGoBackButton" prefHeight="34.0" prefWidth="232.0" style="-fx-background-color: #f29f3f;" text="Повернутись назад" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold Italic" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

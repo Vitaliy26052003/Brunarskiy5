@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.media.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="512.0" prefWidth="892.0" style="-fx-background-color: #ff0f73;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vitaliy26.appp">
+    <children>
+        <AnchorPane layoutY="95.0" prefHeight="418.0" prefWidth="892.0" style="-fx-background-color: #ff5ca0;">
+            <children>
+                <Label layoutX="290.0" prefHeight="72.0" prefWidth="276.0" text="Привіт всім !" textFill="#fff9f9">
+                    <font>
+                        <Font name="Baskerville Old Face" size="48.0" />
+                    </font>
+                </Label>
+            <Text fill="WHITE" layoutX="476.0" layoutY="98.0" strokeType="OUTSIDE" strokeWidth="0.0" text="IT-сфера - одна з найперспективніших галузей в світовій економіці. Якщо тобі подобається займатися інформатикою, програмувати в школі і вдома, якщо тобі хочеться створювати комп'ютерні програми та ігри, запустити свій сервіс в інтернеті або придумати новий додаток для мобільних пристроїв, то варто придивитися до розвитку в цьому напрямку. " textAlignment="JUSTIFY" wrappingWidth="387.6708984375">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Text>
+            <MediaView fx:id="mediaView" fitHeight="285.0" fitWidth="400.0" layoutX="36.0" layoutY="72.0" />
+            <Button fx:id="playButton" layoutX="7.0" layoutY="365.0" mnemonicParsing="false" onAction="#playButton_method" prefHeight="45.0" prefWidth="143.0" style="-fx-background-color: #f29f3f;" text="PLAY" textFill="WHITE" />
+            <Button fx:id="pauseButton" layoutX="184.0" layoutY="365.0" mnemonicParsing="false" onAction="#pauseButton_method" prefHeight="45.0" prefWidth="143.0" style="-fx-background-color: #f29f3f;" text="PAUSE" textFill="WHITE" />
+            <Button fx:id="resetButton" layoutX="365.0" layoutY="365.0" mnemonicParsing="false" onAction="#resetButton_method" prefHeight="45.0" prefWidth="143.0" style="-fx-background-color: #f29f3f;" text="RESET" textFill="WHITE" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="328.0" layoutY="23.0" prefHeight="72.0" prefWidth="264.0" text="ItBruno" textFill="#fff9f9">
+            <font>
+                <Font name="Vivaldi Italic" size="48.0" />
+            </font>
+        </Label>
+      <Button fx:id="GobackButton1" layoutX="660.0" layoutY="6.0" mnemonicParsing="false" onAction="#onGobackButton1" prefHeight="34.0" prefWidth="232.0" style="-fx-background-color: #f29f3f;" text="Повернутись назад" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold Italic" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

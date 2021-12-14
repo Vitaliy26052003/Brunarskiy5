@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="1022.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vitaliy26.box">
+   <children>
+      <VBox prefHeight="400.0" prefWidth="205.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="35.0" prefWidth="143.0" text="CheckBox" textAlignment="RIGHT">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="40.0" right="20.0" top="20.0" />
+               </VBox.margin>
+               <padding>
+                  <Insets right="5.0" />
+               </padding>
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+            </Label>
+            <Label prefHeight="30.0" prefWidth="210.0" text="Взаємодія людино-машинного " wrapText="true">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="19.0" prefWidth="74.0" text="інтерфейсу">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <CheckBox fx:id="ChBPogod" mnemonicParsing="false" prefHeight="21.0" prefWidth="123.0" text="Погодженість">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="10.0" top="10.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox fx:id="ChBDruz" mnemonicParsing="false" text="Дружність">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="10.0" top="-15.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox fx:id="ChBGnuch" mnemonicParsing="false" text="Гнучкість">
+               <VBox.margin>
+                  <Insets left="10.0" top="-15.0" />
+               </VBox.margin>
+            </CheckBox>
+            <CheckBox fx:id="ChBSklad" mnemonicParsing="false" prefHeight="17.0" prefWidth="161.0" text="Складність">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </CheckBox>
+            <Button fx:id="checkBoxAnswer" mnemonicParsing="false" onAction="#checkBoxAnswer" prefHeight="31.0" prefWidth="104.0" text="Відповісти">
+               <VBox.margin>
+                  <Insets left="40.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Label fx:id="lblTrueAnswer" prefHeight="100.0" prefWidth="162.0">
+               <VBox.margin>
+                  <Insets left="20.0" right="-20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </VBox>
+      <VBox prefHeight="406.0" prefWidth="221.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="35.0" prefWidth="143.0" text="ChoiceBox" textAlignment="RIGHT">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+               <padding>
+                  <Insets right="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="40.0" right="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label prefHeight="21.0" prefWidth="203.0" text="Файл sample.fxml відповідає ">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <Label prefHeight="21.0" prefWidth="139.0" text="логіку програми">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" top="-5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <ChoiceBox fx:id="choiceB" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" top="10.0" />
+               </VBox.margin>
+            </ChoiceBox>
+            <Button fx:id="choiceBoxAnswer" mnemonicParsing="false" onAction="#choiceBoxAnswer" prefHeight="31.0" prefWidth="132.0" text="Відповісти">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="30.0" top="20.0" />
+               </VBox.margin>
+            </Button>
+            <Label fx:id="lblAnswerChoice" prefHeight="21.0" prefWidth="87.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="215.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="35.0" prefWidth="143.0" text="ComboBox" textAlignment="RIGHT">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+               <padding>
+                  <Insets right="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="40.0" right="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label text="Дана модель містить пять частин">
+               <VBox.margin>
+                  <Insets bottom="10.0" left="10.0" top="5.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="13.0" />
+               </font>
+            </Label>
+            <ComboBox fx:id="comboBox" onAction="#comboBoxPressed" prefWidth="150.0">
+               <VBox.margin>
+                  <Insets bottom="20.0" left="20.0" top="10.0" />
+               </VBox.margin>
+            </ComboBox>
+            <Label fx:id="lblAnwerCombo" prefHeight="21.0" prefWidth="167.0">
+               <VBox.margin>
+                  <Insets left="10.0" right="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox prefHeight="400.0" prefWidth="226.0">
+         <children>
+            <Label alignment="CENTER" contentDisplay="RIGHT" prefHeight="35.0" prefWidth="170.0" text="RadioButton" textAlignment="RIGHT">
+               <font>
+                  <Font name="System Bold Italic" size="24.0" />
+               </font>
+               <padding>
+                  <Insets right="5.0" />
+               </padding>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="40.0" right="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <RadioButton fx:id="radioProp" mnemonicParsing="false" text="Prorerties">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="radioLay" mnemonicParsing="false" text="Layout">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="radioCode" mnemonicParsing="false" text="Code">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="radioHier" mnemonicParsing="false" text="Hierarchy">
+               <VBox.margin>
+                  <Insets left="20.0" />
+               </VBox.margin>
+            </RadioButton>
+            <Button fx:id="RadioAnswer" mnemonicParsing="false" onAction="#RadioAnswer" text="Відповідь">
+               <VBox.margin>
+                  <Insets left="50.0" />
+               </VBox.margin>
+            </Button>
+            <Label fx:id="lblRadio" prefHeight="21.0" prefWidth="179.0">
+               <VBox.margin>
+                  <Insets left="10.0" top="50.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <VBox fx:id="scenePane" prefHeight="400.0" prefWidth="185.0">
+         <children>
+            <ColorPicker fx:id="myColorPicker" onAction="#changeColor">
+               <VBox.margin>
+                  <Insets left="10.0" top="40.0" />
+               </VBox.margin>
+            </ColorPicker>
+            <Slider fx:id="mySlider">
+               <VBox.margin>
+                  <Insets top="200.0" />
+               </VBox.margin>
+            </Slider>
+            <Label fx:id="sliderLabel" prefHeight="21.0" prefWidth="103.0" style="-fx-background-color: #f3ffd3;" text="Ваша оцінка" textFill="#da251e">
+               <VBox.margin>
+                  <Insets left="20.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>

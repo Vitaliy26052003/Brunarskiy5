@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #ff0f73;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.vitaliy26.HelloController">
+    <children>
+        <AnchorPane layoutY="99.0" prefHeight="301.0" prefWidth="700.0" style="-fx-background-color: #ff5ca0;">
+            <children>
+                <TextField fx:id="login_field" layoutX="212.0" layoutY="86.0" prefHeight="31.0" prefWidth="276.0" promptText="Логін" style="-fx-background-color: #fabee2;" />
+                <PasswordField fx:id="password_field" layoutX="212.0" layoutY="151.0" prefHeight="31.0" prefWidth="276.0" promptText="Пароль" style="-fx-background-color: #fabee2;" />
+                <Button fx:id="authSighButton" layoutX="273.0" layoutY="202.0" mnemonicParsing="false"  prefHeight="72.0" prefWidth="179.0" style="-fx-background-color: #f29f3f;" text="Вхід" textFill="WHITE">
+                    <font>
+                        <Font name="Corbel Bold Italic" size="18.0" />
+                    </font>
+                </Button>
+                <Label layoutX="211.0" prefHeight="72.0" prefWidth="276.0" style="-: #f29f3f;" text="Авторизація" textFill="#fff9f9">
+                    <font>
+                        <Font name="Vivaldi Italic" size="48.0" />
+                    </font>
+                </Label>
+            <Button fx:id="Exit" layoutX="521.0" layoutY="256.0" mnemonicParsing="false" onAction="#ExitButton" prefHeight="36.0" prefWidth="179.0" style="-fx-background-color: #f29f3f;" text="Вихід" textFill="WHITE">
+               <font>
+                  <Font name="Corbel Bold Italic" size="18.0" />
+               </font>
+            </Button>
+            <VBox fx:id="scenePane1" layoutX="265.0" layoutY="86.0" prefHeight="103.0" prefWidth="217.0" />
+            </children>
+        </AnchorPane>
+        <Label layoutX="276.0" layoutY="31.0" prefHeight="72.0" prefWidth="199.0" text="ItBruno" textFill="#fff9f9">
+            <font>
+                <Font name="Vivaldi Italic" size="48.0" />
+            </font>
+        </Label>
+        <Button fx:id="loginSighUpButton" layoutX="520.0" layoutY="5.0" mnemonicParsing="false" prefHeight="36.0" prefWidth="179.0" style="-fx-background-color: #f29f3f;" text="Зареєструватись" textFill="WHITE">
+            <font>
+                <Font name="Corbel Bold Italic" size="18.0" />
+            </font>
+        </Button>
+      <Button fx:id="OthersLab" layoutY="6.0" mnemonicParsing="false" onAction="#OthersLab" prefHeight="34.0" prefWidth="179.0" style="-fx-background-color: #f29f3f;" text="Інші лабораторні" textFill="WHITE">
+         <font>
+            <Font name="Corbel Bold Italic" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>
